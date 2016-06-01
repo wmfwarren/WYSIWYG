@@ -2,10 +2,10 @@
 input[type="text"] {
 	text-align: center;
 	margin-bottom: 20px;
-	width: 20%;
+	width: 15%;
 	height: 20px;
 	font-size: 15px;
-	display: block;
+	display: inline-block;
 	margin: 20px auto;
 }
 /*style content container*/
@@ -52,4 +52,10 @@ header h3 {
 
 .cardBorder {
 	border: 2px dotted black;
+}
+
+div#buttons {
+	margin-bottom: 20px;
+	display: block;
+	margin: 0 auto;
 }
